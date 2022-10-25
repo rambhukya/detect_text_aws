@@ -4,9 +4,9 @@ import json
 app = Flask(__name__)
 from werkzeug.utils import secure_filename
 
-ak="ASIA4RW7ZWQXKO6T4NNS"
-ask="g+y12Sa6r/sVNTHmAYDWTtPTZQc4ggyG23vvcRJn"
-at="FwoGZXIvYXdzEBEaDJ36Ja6m8Ec42pOnWyLFAXFErezIJ0epbjSLLhEDHBcdgPQEzb08N/1r+t42OFyzao0/LqGUUl2dCRbrGxnjVrZmnYwebr4Zrup5Z8fARGa//p98pfM87TIqOofpQqIWYMxaPjaJfeXY20985agmEgoaXgGuof5QApdYIhlHqO3R9HsSkY5EU55W60yifWi86n/fPWN9bWsHV9U/cQ+XDP+NozSmaEfZFBsTkVFlv/AE8QHO1m0NR2/SuS7ArgAVeUSON2th3ZEoSPVdHz9uVklZEk1dKKeN4JoGMi1/CRullN/9ZuX+ZC9hZOdhinnOnqAROGn+XV5/2cxaUXLLnEPoeiMBWcR9xT0="
+ak=""
+ask=""
+at=""
 
 s3 = boto3.client(
     's3',
